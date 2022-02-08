@@ -1,0 +1,3 @@
+rails -v
+rails new tickets
+rails server
