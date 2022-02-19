@@ -1,3 +1,16 @@
 rails -v
 rails new tickets
 rails server
+
+rails new simple_cms -d mysql
+rails new simple_cms 
+
+# Want RSpec installed
+# db folder > Gemfile
+group :development, :test do 
+    gem 'rspec-rails'
+end
+
+bundle install at project folder.
+
+rails generate rspec:install 
