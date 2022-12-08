@@ -9,4 +9,3 @@ rails new blog
 rails new myapp --database=postgresql
 
 gem install db-mariadb
-
